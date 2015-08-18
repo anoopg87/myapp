@@ -26,8 +26,6 @@ public class MainActivity extends Activity {
 
         FrameLayout frameLayout= (FrameLayout) findViewById(R.id.frameLayout);
 
-
-
         SemiCircleProgressBarView semiCircleProgressBarView = new SemiCircleProgressBarView(mContext,R.drawable.white, 164, 164);
         semiCircleProgressBarView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
         semiCircleProgressBarView.setClipping(100);
