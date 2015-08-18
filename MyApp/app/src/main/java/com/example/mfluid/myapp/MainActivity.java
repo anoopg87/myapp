@@ -24,9 +24,6 @@ public class MainActivity extends Activity {
         Test();
         mContext=this;
 
-
-        LinearLayout linearLayout;
-
         FrameLayout frameLayout= (FrameLayout) findViewById(R.id.frameLayout);
 
 
