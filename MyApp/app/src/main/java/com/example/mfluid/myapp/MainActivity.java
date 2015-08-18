@@ -33,7 +33,6 @@ public class MainActivity extends Activity {
         SemiCircleProgressBarView semiCircleProgressBarView2 = new SemiCircleProgressBarView(mContext,R.drawable.yellow, 164, 164);
         semiCircleProgressBarView2.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
         semiCircleProgressBarView2.setClipping(80);
-
         frameLayout.addView(semiCircleProgressBarView);
         frameLayout.addView(semiCircleProgressBarView2);
 
